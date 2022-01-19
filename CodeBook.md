@@ -8,12 +8,12 @@
 
 This dataset was created for the Getting and Cleaning Data Assignment within the Data Science Specialization by Johns Hopkins University.  See [cjbach1/Getting and Cleaning Data Course Project](https://github.com/cjbach1/Getting-and-Cleaning-Data-Course-Project) repository for all relevant files. The original dataset is provided here (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and can be transformed to the data below utilizing the scipt 'run_analysis.R' in the GitHub repository.  
 
-The first 2 variables uniquely identify each row in the data table as 'subject' and 'activity'.  The remaining 66 varaiables are averages of features that contain means and standard deviations fom the original dataset.  The table below describes each variable in detail.
+The 'Subject' and 'Activity' variables that start the table uniquely identify each row as they identify the person and the activity performed in the experiment.  The remaining 66 varaiables are averages of features that contain means and standard deviations fom the original dataset.  The table below describes each variable in detail.
 
 | Index |           Variables          |  Class  |  Range  | Description                                                                                               |
 |-------|------------------------------| --------|---------|-----------------------------------------------------------------------------------------------------------|
-|    1  | subject                      | integer |  1 - 30 | Identifies the person in the experiment.                                                                             |
-|    2  | activity                     | factor  |  1 -  6 | Identifies the activity. Labels: WALKING, WALKING UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING |
+|    1  | Subject                      | integer |  1 - 30 | Identifies the person in the experiment.                                                                             |
+|    2  | Activity                     | factor  |  1 -  6 | Identifies the activity. Labels: WALKING, WALKING UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING |
 |    3  | timeBodyaccelerationmean()-X       | numeric | [-1, 1] | Time domain, Average of means for body acceleration on X axis.                                            |
 |    4  | timeBodyaccelerationmean()-Y       | numeric | [-1, 1] | Time domain, Average of means for body acceleration on Y axis.                                            |
 |    5  | timeBodyaccelerationmean()-Z       | numeric | [-1, 1] | Time domain, Average of means for body acceleration on Z axis.                                            |
